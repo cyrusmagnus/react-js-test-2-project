@@ -1,11 +1,8 @@
-import NavBar from "./../components/nav/NavBar";
 import Header from "./../components/header/Header";
-import Footer from "./../components/footer/Footer";
 
 const Home = () => {
   return (
     <>
-      <NavBar />
       <Header />
       <main className="section">
         <div className="container">
@@ -23,7 +20,6 @@ const Home = () => {
 
         </div>
       </main>
-      <Footer/>
     </>
   );
 }
