@@ -1,41 +1,17 @@
 import './Assets/style/main.css';
 
-import sun from './Assets/images/icons/sun.svg';
-import moon from './Assets/images/icons/moon.svg';
-
 import vk from './Assets/images/icons/vk.svg';
 import instagram from './Assets/images/icons/instagram.svg';
 import twitter from './Assets/images/icons/twitter.svg';
 import linkedIn from './Assets/images/icons/linkedIn.svg';
 import gitHub from './Assets/images/icons/gitHub.svg';
 
+import Home from './Pages/Home';
+
 function App() {
   return (
     <>
-      <nav className="nav">
-        <div className="container">
-          <div className="nav-row">
-            <a href="./index.html" className="logo"><strong>Freelancer</strong> portfolio</a>
-
-            <button className="dark-mode-btn">
-              <img src={sun} alt="Light mode" className="dark-mode-btn__icon" />
-              <img src={moon} alt="Dark mode" className="dark-mode-btn__icon" />
-            </button>
-
-            <ul className="nav-list">
-              <li className="nav-list__item">
-                <a href="./index.html" className="nav-list__link nav-list__link--active">Home</a>
-              </li>
-              <li className="nav-list__item">
-                <a href="./projects.html" className="nav-list__link">Projects</a>
-              </li>
-              <li className="nav-list__item">
-                <a href="./contacts.html" className="nav-list__link">Contacts</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <Home />
 
       <header className="header">
         <div className="header__wrapper">
