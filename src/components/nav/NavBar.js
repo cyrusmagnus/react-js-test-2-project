@@ -1,5 +1,7 @@
-import sun from './../../Assets/images/icons/sun.svg';
-import moon from './../../Assets/images/icons/moon.svg';
+import './navBar.css'
+
+import sun from './../../assets/images/icons/sun.svg';
+import moon from './../../assets/images/icons/moon.svg';
 
 const NavBar = () => {
   return ( 
