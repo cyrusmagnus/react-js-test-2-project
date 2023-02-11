@@ -1,13 +1,18 @@
 import projectImg_1 from './../assets/images/projects/01.jpg';
 import projectImg_1Big from './../assets/images/projects/01-big.jpg';
+
 import projectImg_2 from './../assets/images/projects/02.jpg';
 import projectImg_2Big from './../assets/images/projects/02-big.jpg';
+
 import projectImg_3 from './../assets/images/projects/03.jpg';
 import projectImg_3Big from './../assets/images/projects/03-big.jpg';
+
 import projectImg_4 from './../assets/images/projects/04.jpg';
 import projectImg_4Big from './../assets/images/projects/04-big.jpg';
+
 import projectImg_5 from './../assets/images/projects/05.jpg';
 import projectImg_5Big from './../assets/images/projects/05-big.jpg';
+
 import projectImg_6 from './../assets/images/projects/06.jpg';
 import projectImg_6Big from './../assets/images/projects/06-big.jpg';
 
